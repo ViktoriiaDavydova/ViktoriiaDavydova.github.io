@@ -7,7 +7,7 @@ class Navbar extends Component {
       <div>
         <div>
           <div className="tab button ">
-            <button
+            <button className="bannertext"
               onClick={() => {
                 this.props.onChangePage("aboutMe");
               }}
@@ -21,7 +21,7 @@ class Navbar extends Component {
             </button>
           </div>
           <div className="tab button">
-            <button
+            <button className="bannertext"
               onClick={() => {
                 this.props.onChangePage("projects");
               }}
@@ -31,7 +31,7 @@ class Navbar extends Component {
             </button>
           </div>
           <div className="tab button">
-            <button
+            <button className="bannertext"
               onClick={() => {
                 this.props.onChangePage("resume");
               }}
@@ -41,7 +41,7 @@ class Navbar extends Component {
             </button>
           </div>
           <div className="tab button">
-            <button
+            <button className="bannertext"
               onClick={() => {
                 this.props.onChangePage("contacts");
               }}

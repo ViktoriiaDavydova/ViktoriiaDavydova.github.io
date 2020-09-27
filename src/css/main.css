@@ -50,8 +50,16 @@ body {
     outline: none;
     cursor: pointer;
     transition: 0.3s;
-    font-size: 60px;
+    /* font-size: 4em; */
     padding-left: 15px;
+    position: relative;
+    
+}
+
+.bannertext {
+    font-size: 4em;
+    line-height: 40px;
+    position: absolute;
 }
 
 .tab button:hover {
