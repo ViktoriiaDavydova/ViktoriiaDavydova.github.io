@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "09182495eb7d2d007b36b12638bc6a04",
+    "revision": "ed8f1f82ed769182018507fc54f413e6",
     "url": "/vdavydova-portfolio/index.html"
   },
   {
-    "revision": "be9fe626f5d17e44ff49",
-    "url": "/vdavydova-portfolio/static/css/main.1fbae199.chunk.css"
+    "revision": "4decb5a1864d9d7338ed",
+    "url": "/vdavydova-portfolio/static/css/main.386d0bc9.chunk.css"
   },
   {
     "revision": "19d58e9cb335330cb98e",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vdavydova-portfolio/static/js/2.b78bee0c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "be9fe626f5d17e44ff49",
+    "revision": "4decb5a1864d9d7338ed",
     "url": "/vdavydova-portfolio/static/js/main.4025b3c5.chunk.js"
   },
   {
