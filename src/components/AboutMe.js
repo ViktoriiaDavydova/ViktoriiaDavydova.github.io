@@ -48,7 +48,23 @@ class AboutMe extends Component {
                 </ul>
               </Col>
               {/* <div className="col-sm">DFGHJ;</div> */}
-              <Col>FGHJKL</Col>
+              <Col>
+                <p>Skills I got:</p>
+                <ul>
+                  <li>JavaScript</li>
+                  <li>React</li>
+                  <li>HTML5, CSS3</li>
+                  <li>Oracle Relational DB</li>
+                  <li>PL/SQL</li>
+                  <li>XML, JSON</li>
+                  <li>Java, JSP</li>
+                  <li>MySQL, SQL Plus</li>
+                  <li>Azure basics</li>
+                  <li>
+                    MS Office (Word, Excel, PowerPoint, Outlook, Project, Visio)
+                  </li>
+                </ul>
+              </Col>
             </Row>
           </Container>
 

@@ -14,7 +14,7 @@ class Navbar extends Component {
             >
               About me
               <img 
-                // style={{ flex: 1, width: "auto", height: "auto" }}
+                style={{ flex: 1, width: "auto", height: "auto" }}
                 src={require("../images/myQuestion.png")}
                 resizeMode="contain"
               />
