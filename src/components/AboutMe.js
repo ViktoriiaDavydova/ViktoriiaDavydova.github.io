@@ -5,7 +5,8 @@ class AboutMe extends Component {
   render() {
     return (
       <div>
-        <div id="aboutMe" className="tabcontent">
+        {/* <div id="aboutMe" className="tabcontent"> */}
+        <div className="tabcontent">
           <h3>About Me</h3>
           <p>
             My name is Viktoriia Davydova and I am a SAIT (The Southern Alberta

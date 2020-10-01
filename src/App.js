@@ -1,26 +1,35 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import AboutMe from "./components/AboutMe";
+// import Navbar from "./components/Navbar";
+// import AboutMe from "./components/AboutMe";
 import "./css/main.css";
+
+
+import { BrowserRouter, Route } from "react-router-dom";
+import Header from "./components/Header";
+import AboutMe from "./components/AboutMe";
+import Contacts from "./components/Contacts";
+import Projects from "./components/Projects";
+import Resume from "./components/Resume";
 
 export default class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <div>
-          <header className="header">
-            <div className="frames">
-              <div style={{ fontSize: "35px" }}> VIKTORIIA DAVYDOVA </div>
-              <div style={{ fontSize: "30px" }}>Front End Web Developer</div>
-            </div>
-          </header>
-        </div>
-        <div>
+        <BrowserRouter>
+          <div>
+            <Header />
+          </div>
+          <Route path="/" exact component={AboutMe} />
+          <Route path="/Projects" component={Projects} />
+          <Route path="/Resume" component={Resume} />
+          <Route path="/Contacts" component={Contacts} />
+        </BrowserRouter>
+        {/* <div>
           <Navbar />
-        </div>
-        <div >
+        </div> */}
+        {/* <div>
           <AboutMe />
-        </div>
+        </div> */}
         <footer>
           <p className="footer">Designed by Viktoriia Davydova © 2020</p>
         </footer>
