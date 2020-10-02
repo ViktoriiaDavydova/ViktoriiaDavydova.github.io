@@ -8,8 +8,10 @@ class Contacts extends Component {
         <br />
         <div>
           <img className="float-left" src={require("../images/email.png")} />
-          VIKTORIIADAVYDOV@GMAIL.COM{" "}
-          <a href="mailto:viktoriiadavydov@gmail.com">Email me</a>
+          Email me to{" "}
+          <a href="mailto:viktoriiadavydov@gmail.com">
+            VIKTORIIADAVYDOV@GMAIL.COM
+          </a>
         </div>
         <br /> <br />
         <div>

@@ -5,8 +5,7 @@ class AboutMe extends Component {
   render() {
     return (
       <div>
-        {/* <div id="aboutMe" className="tabcontent"> */}
-        <div className="tabcontent" id="aboutMe">
+        <div className="tabcontent">
           <h3>About Me</h3>
           <p>
             My name is Viktoriia Davydova and I am a SAIT (The Southern Alberta
@@ -28,10 +27,8 @@ class AboutMe extends Component {
             to resolve. However, in my nature is to complete all the tasks as
             good as it's possible.{" "}
           </p>
-          {/* <div className="row"> */}
           <Container>
             <Row>
-              {/* <div className="col-sm"> */}
               <Col>
                 <p>Courses I have taken during my education:</p>
                 <ul>
@@ -48,7 +45,6 @@ class AboutMe extends Component {
                   <li>Security for Software Developers</li>
                 </ul>
               </Col>
-              {/* <div className="col-sm">DFGHJ;</div> */}
               <Col>
                 <p>Skills I got:</p>
                 <ul>

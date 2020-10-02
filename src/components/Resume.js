@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Document, Page } from "react-pdf";
 import VDResume from "../images/DavydovaViktoriia_resume.pdf";
-// import VDResume from "../DavydovaViktoriia_resume.pdf";
 
 export default class Resume extends Component {
   state = { numPages: null, pageNumber: 1 };
@@ -11,9 +10,9 @@ export default class Resume extends Component {
   };
 
   goToPrevPage = () =>
-    this.setState(state => ({ pageNumber: state.pageNumber - 1 }));
+    this.setState((state) => ({ pageNumber: state.pageNumber - 1 }));
   goToNextPage = () =>
-    this.setState(state => ({ pageNumber: state.pageNumber + 1 }));
+    this.setState((state) => ({ pageNumber: state.pageNumber + 1 }));
 
   render() {
     const { pageNumber, numPages } = this.state;
@@ -27,10 +26,7 @@ export default class Resume extends Component {
         </nav>
 
         <div style={{ width: 600 }}>
-          <Document
-            file={VDResume}
-            onLoadSuccess={this.onDocumentLoadSuccess}
-          >
+          <Document file={VDResume} onLoadSuccess={this.onDocumentLoadSuccess}>
             <Page pageNumber={pageNumber} width={600} />
           </Document>
         </div>
@@ -42,4 +38,3 @@ export default class Resume extends Component {
     );
   }
 }
-
