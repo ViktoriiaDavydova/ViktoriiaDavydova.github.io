@@ -6,7 +6,7 @@ class AboutMe extends Component {
     return (
       <div>
         {/* <div id="aboutMe" className="tabcontent"> */}
-        <div className="tabcontent">
+        <div className="tabcontent" id="aboutMe">
           <h3>About Me</h3>
           <p>
             My name is Viktoriia Davydova and I am a SAIT (The Southern Alberta

@@ -4,7 +4,7 @@ import React from "react";
 import "./css/main.css";
 
 
-import { BrowserRouter, Route } from "react-router-dom";
+import { HashRouter, BrowserRouter, Route } from "react-router-dom";
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Contacts from "./components/Contacts";
@@ -15,7 +15,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <BrowserRouter>
+        <HashRouter basename="/">
           <div>
             <Header />
           </div>
@@ -23,13 +23,9 @@ export default class App extends React.Component {
           <Route path="/Projects" component={Projects} />
           <Route path="/Resume" component={Resume} />
           <Route path="/Contacts" component={Contacts} />
-        </BrowserRouter>
-        {/* <div>
-          <Navbar />
-        </div> */}
-        {/* <div>
-          <AboutMe />
-        </div> */}
+
+        </HashRouter>
+
         <footer>
           <p className="footer">Designed by Viktoriia Davydova © 2020</p>
         </footer>
