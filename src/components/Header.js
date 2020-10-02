@@ -1,5 +1,13 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
+import styled from "styled-components";
+
+const Button = styled.button`
+  .active & {
+    background: #538791;
+    color: white;
+  }
+`;
 
 export default class Header extends Component {
   render() {
@@ -14,52 +22,32 @@ export default class Header extends Component {
           </header>
         </div>
         <div>
-          <NavLink
-            className="tab button "
-            exact
-            activeClassName="active"
-            to="/"
-          >
-            <button className="bannertext">
+          <NavLink className="tab button " exact to="/">
+            <Button className="bannertext">
               About me
               <img src={require("../images/myQuestion.png")} />
-            </button>
+            </Button>
           </NavLink>
 
-          <NavLink
-            className="tab button "
-            exact
-            activeClassName="active"
-            to="/Projects"
-          >
-            <button className="bannertext">
+          <NavLink className="tab button " to="/Projects">
+            <Button className="bannertext">
               Projects
               <img src={require("../images/myBulb.png")} />
-            </button>
+            </Button>
           </NavLink>
 
-          <NavLink
-            className="tab button "
-            exact
-            activeClassName="active"
-            to="/Resume"
-          >
-            <button className="bannertext">
+          <NavLink className="tab button " to="/Resume">
+            <Button className="bannertext">
               Resume
               <img src={require("../images/myChest.png")} />
-            </button>
+            </Button>
           </NavLink>
 
-          <NavLink
-            className="tab button "
-            exact
-            activeClassName="active"
-            to="/Contacts"
-          >
-            <button className="bannertext">
+          <NavLink className="tab button " to="/Contacts">
+            <Button className="bannertext">
               Contacts
               <img src={require("../images/myGo.png")} />
-            </button>
+            </Button>
           </NavLink>
         </div>
       </div>

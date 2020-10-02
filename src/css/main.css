@@ -54,10 +54,10 @@ body {
   color: white;
 }
 
-.tab button.active {
+/* .tab button:active {
   background-color: #538791;
   color: white;
-}
+} */
 
 .tabcontent {
   display: "none";
