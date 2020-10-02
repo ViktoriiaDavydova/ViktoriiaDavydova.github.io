@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f6655e8210829888c1db42c00a8d2a10",
+    "revision": "451cdebbc7aa2a0ed82cf67e7abe9ecd",
     "url": "/vdavydova-portfolio/index.html"
   },
   {
-    "revision": "097c53f6ca23463e6364",
-    "url": "/vdavydova-portfolio/static/css/main.386d0bc9.chunk.css"
+    "revision": "f991298a8e9d900810a4",
+    "url": "/vdavydova-portfolio/static/css/main.0f517e17.chunk.css"
   },
   {
-    "revision": "b36187abd2a758304a4f",
-    "url": "/vdavydova-portfolio/static/js/2.6e3f81ec.chunk.js"
+    "revision": "a49b11feb6dc0236098e",
+    "url": "/vdavydova-portfolio/static/js/2.9dfb1b6f.chunk.js"
   },
   {
     "revision": "596676716ca1328e2733d607535d6ca7",
-    "url": "/vdavydova-portfolio/static/js/2.6e3f81ec.chunk.js.LICENSE.txt"
+    "url": "/vdavydova-portfolio/static/js/2.9dfb1b6f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "097c53f6ca23463e6364",
-    "url": "/vdavydova-portfolio/static/js/main.bd2095c3.chunk.js"
+    "revision": "f991298a8e9d900810a4",
+    "url": "/vdavydova-portfolio/static/js/main.842ad8b4.chunk.js"
   },
   {
     "revision": "8bf2a2a051f461e2aea4",
