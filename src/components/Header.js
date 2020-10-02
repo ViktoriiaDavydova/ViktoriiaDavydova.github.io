@@ -15,55 +15,53 @@ export default class Header extends Component {
           </header>
         </div>
         <div>
-          {/* <div >
-            <NavLink to="/" >
-              <div >About Me</div>
-            </NavLink>
-          </div> */}
+          <NavLink
+            className="tab button "
+            exact
+            activeClassName="active"
+            to="/"
+          >
+            <button className="bannertext">
+              About me
+              <img src={require("../images/myQuestion.png")} />
+            </button>
+          </NavLink>
 
-          <div>
-            <NavLink to="/">
-              <div className="tab button ">
-                <button className="bannertext">
-                  About me
-                  <img src={require("../images/myQuestion.png")} />
-                </button>
-              </div>
-            </NavLink>
-          </div>
+          <NavLink
+            className="tab button "
+            exact
+            activeClassName="active"
+            to="/Projects"
+          >
+            <button className="bannertext">
+              Projects
+              <img src={require("../images/myBulb.png")} />
+            </button>
+          </NavLink>
 
-          <div>
-            <NavLink to="/Projects">
-              <div className="tab button">
-                <button className="bannertext">
-                  Projects
-                  <img src={require("../images/myBulb.png")} />
-                </button>
-              </div>
-            </NavLink>
-          </div>
+          <NavLink
+            className="tab button "
+            exact
+            activeClassName="active"
+            to="/Resume"
+          >
+            <button className="bannertext">
+              Resume
+              <img src={require("../images/myChest.png")} />
+            </button>
+          </NavLink>
 
-          <div>
-            <NavLink to="/Resume">
-              <div className="tab button">
-                <button className="bannertext">
-                  Resume
-                  <img src={require("../images/myChest.png")} />
-                </button>
-              </div>
-            </NavLink>
-          </div>
-
-          <div>
-            <NavLink to="/Contacts">
-              <div className="tab button">
-                <button className="bannertext">
-                  Contacts
-                  <img src={require("../images/myGo.png")} />
-                </button>
-              </div>
-            </NavLink>
-          </div>
+          <NavLink
+            className="tab button "
+            exact
+            activeClassName="active"
+            to="/Contacts"
+          >
+            <button className="bannertext">
+              Contacts
+              <img src={require("../images/myGo.png")} />
+            </button>
+          </NavLink>
         </div>
       </div>
     );
