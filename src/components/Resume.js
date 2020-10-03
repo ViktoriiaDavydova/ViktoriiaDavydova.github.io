@@ -1,6 +1,9 @@
 import React, { Component } from "react";
-import { Document, Page } from "react-pdf";
-import VDResume from "../images/DavydovaViktoriia_resume.pdf";
+import { Document, Page, pdfjs } from "react-pdf";
+import VDResume from "../DavydovaViktoriia_resume.pdf";
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+
+
 
 export default class Resume extends Component {
   state = { numPages: null, pageNumber: 1 };
@@ -8,6 +11,7 @@ export default class Resume extends Component {
   onDocumentLoadSuccess = ({ numPages }) => {
     this.setState({ numPages });
   };
+
 
   goToPrevPage = () =>
     this.setState((state) => ({ pageNumber: state.pageNumber - 1 }));
@@ -27,7 +31,7 @@ export default class Resume extends Component {
 
         <div style={{ width: 600 }}>
           <Document file={VDResume} onLoadSuccess={this.onDocumentLoadSuccess}>
-            <Page pageNumber={pageNumber} width={600} />
+            <Page pageNumber={pageNumber}  />
           </Document>
         </div>
 

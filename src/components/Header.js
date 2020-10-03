@@ -22,31 +22,39 @@ export default class Header extends Component {
           </header>
         </div>
         <div>
+
+        
           <NavLink className="tab button " exact to="/">
-            <Button className="bannertext">
+            <Button className="bannertext " >
               About me
-              <img src={require("../images/myQuestion.png")} />
+              <img
+                src={require("../images/myQuestion.png")}
+                alt="question_mark"
+              />
             </Button>
           </NavLink>
 
-          <NavLink className="tab button " to="/Projects">
+          <NavLink className="tab button" to="/Projects">
             <Button className="bannertext">
               Projects
-              <img src={require("../images/myBulb.png")} />
+              <img src={require("../images/myBulb.png")} alt="lightbulb" />
             </Button>
           </NavLink>
 
-          <NavLink className="tab button " to="/Resume">
+          <NavLink className="tab button" to="/Resume">
             <Button className="bannertext">
               Resume
-              <img src={require("../images/myChest.png")} />
+              <img
+                src={require("../images/myChest.png")}
+                alt="treasure_chest"
+              />
             </Button>
           </NavLink>
 
-          <NavLink className="tab button " to="/Contacts">
+          <NavLink className="tab button" to="/Contacts">
             <Button className="bannertext">
               Contacts
-              <img src={require("../images/myGo.png")} />
+              <img src={require("../images/myGo.png")} alt="go_sign" />
             </Button>
           </NavLink>
         </div>
