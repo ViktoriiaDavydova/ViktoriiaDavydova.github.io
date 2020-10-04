@@ -43,6 +43,29 @@ body {
   position: relative;
 }
 
+@media only screen and (max-width: 600px) {
+  .tab button {
+    display: block;
+    width: 100%;
+    font-size: medium;
+    height: 50px;
+  }
+
+  img#hide {
+    display: none;
+  }
+
+  header {
+    height: 70px;
+    font-size: medium;
+  }
+.frames {
+    border: none;
+    padding: 0;
+}
+  
+}
+
 .bannertext {
   font-size: 60px;
   line-height: 40px;

@@ -15,19 +15,18 @@ export default class Header extends Component {
       <div>
         <div>
           <header className="header">
-            <div className="frames">
+            <div className="frames" >
               <div style={{ fontSize: "35px" }}> VIKTORIIA DAVYDOVA </div>
               <div style={{ fontSize: "30px" }}>Front End Web Developer</div>
             </div>
           </header>
         </div>
         <div>
-
-        
           <NavLink className="tab button " exact to="/">
-            <Button className="bannertext " >
+            <Button className="bannertext ">
               About me
               <img
+                id="hide"
                 src={require("../images/myQuestion.png")}
                 alt="question_mark"
               />
@@ -37,7 +36,11 @@ export default class Header extends Component {
           <NavLink className="tab button" to="/Projects">
             <Button className="bannertext">
               Projects
-              <img src={require("../images/myBulb.png")} alt="lightbulb" />
+              <img
+                id="hide"
+                src={require("../images/myBulb.png")}
+                alt="lightbulb"
+              />
             </Button>
           </NavLink>
 
@@ -45,6 +48,7 @@ export default class Header extends Component {
             <Button className="bannertext">
               Resume
               <img
+                id="hide"
                 src={require("../images/myChest.png")}
                 alt="treasure_chest"
               />
@@ -54,7 +58,11 @@ export default class Header extends Component {
           <NavLink className="tab button" to="/Contacts">
             <Button className="bannertext">
               Contacts
-              <img src={require("../images/myGo.png")} alt="go_sign" />
+              <img
+                id="hide"
+                src={require("../images/myGo.png")}
+                alt="go_sign"
+              />
             </Button>
           </NavLink>
         </div>

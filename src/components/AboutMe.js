@@ -7,6 +7,7 @@ class AboutMe extends Component {
       <div>
         <div className="tabcontent">
           <h3>About Me</h3>
+          <br />
           <p>
             My name is Viktoriia Davydova and I am a SAIT (The Southern Alberta
             Institute of Technology) Information Technology program graduated

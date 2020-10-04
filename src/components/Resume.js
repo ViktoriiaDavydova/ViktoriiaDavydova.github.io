@@ -21,6 +21,7 @@ export default class Resume extends Component {
     return (
       <div className="tabcontent">
         <h3>Resume</h3>
+        <br />
         <nav>
         {pageNumber ===2 ? (
           <button onClick={this.goToPrevPage}>Prev</button>
