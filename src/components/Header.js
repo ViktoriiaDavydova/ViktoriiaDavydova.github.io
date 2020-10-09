@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
+import VDResume from "../DavydovaViktoriia_resume.pdf";
 
 const Button = styled.button`
   .active & {
@@ -14,10 +15,10 @@ export default class Header extends Component {
     return (
       <div>
         <div>
-          <header className="header">
-            <div className="frames" >
-              <div style={{ fontSize: "35px" }}> VIKTORIIA DAVYDOVA </div>
-              <div style={{ fontSize: "30px" }}>Front End Web Developer</div>
+          <header className="header ">
+            <div className="frames">
+              <div> VIKTORIIA DAVYDOVA </div>
+              <div>Front End Web Developer</div>
             </div>
           </header>
         </div>

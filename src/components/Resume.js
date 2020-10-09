@@ -23,11 +23,11 @@ export default class Resume extends Component {
         <h3>Resume</h3>
         <br />
         <nav>
-        {pageNumber ===2 ? (
-          <button onClick={this.goToPrevPage}>Prev</button>
-        ) : (
-          <button onClick={this.goToNextPage}>Next</button>
-        )}
+          {pageNumber === 2 ? (
+            <button onClick={this.goToPrevPage}>Prev</button>
+          ) : (
+            <button onClick={this.goToNextPage}>Next</button>
+          )}
         </nav>
 
         <div style={{ width: 600 }}>

@@ -11,6 +11,7 @@ body {
   background-color: #da292f;
   font-family: Monopoly Sans Font;
   src: url("../fonts/MONOPOLY_INLINE.ttf");
+  font-size: xx-large;
   height: 140px;
   padding: 20px;
   padding-bottom: 5px;
@@ -57,13 +58,13 @@ body {
 
   header {
     height: 70px;
-    font-size: medium;
+    font-size: small;
+    padding: 0;
   }
-.frames {
+  .frames {
     border: none;
     padding: 0;
-}
-  
+  }
 }
 
 .bannertext {
@@ -76,11 +77,6 @@ body {
   background-color: #365361;
   color: white;
 }
-
-/* .tab button.active {
-  background-color: #538791;
-  color: white;
-} */
 
 .tabcontent {
   display: "none";
@@ -108,4 +104,29 @@ img {
   font-family: "Tahoma";
   margin-top: 20px;
   text-align: right;
+}
+
+.card {
+  text-align: center;
+  border-color: black;
+  border-width: 2px;
+}
+
+.card-header {
+  border-color: black;
+  border-width: 2px;
+  height: 100px;
+}
+
+.card-body {
+  height: 275px;
+}
+
+.card-footer {
+  border-top-color: black;
+  border-top-width: 2px;
+}
+
+.card-title {
+  font-weight: bold;
 }
