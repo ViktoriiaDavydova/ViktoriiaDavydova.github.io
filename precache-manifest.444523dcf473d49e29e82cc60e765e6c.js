@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dee9ce3df41be54e44f221c4b2676eb7",
+    "revision": "5328b61c92b9b9336afbb5099d8dd7c8",
     "url": "/vdavydova-portfolio/index.html"
   },
   {
-    "revision": "ce6a98143c72ac394b39",
+    "revision": "8f34e90b1e9b24778088",
     "url": "/vdavydova-portfolio/static/css/main.238e055f.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vdavydova-portfolio/static/js/2.fba31fb5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ce6a98143c72ac394b39",
-    "url": "/vdavydova-portfolio/static/js/main.faca14e9.chunk.js"
+    "revision": "8f34e90b1e9b24778088",
+    "url": "/vdavydova-portfolio/static/js/main.96108c8c.chunk.js"
   },
   {
     "revision": "8bf2a2a051f461e2aea4",
     "url": "/vdavydova-portfolio/static/js/runtime-main.86353677.js"
   },
   {
-    "revision": "75d37c249a8540ae713ead3548ec2f0a",
-    "url": "/vdavydova-portfolio/static/media/DavydovaViktoriia_resume.75d37c24.pdf"
+    "revision": "2a06cda37422fdcd62ad688cdb3e83c1",
+    "url": "/vdavydova-portfolio/static/media/DavydovaViktoriia_resume.2a06cda3.pdf"
   },
   {
     "revision": "12bf084fc0d5778cf3b0422aa1491678",
