@@ -12,21 +12,15 @@ class AboutMe extends Component {
             My name is Viktoriia Davydova and I am a SAIT (The Southern Alberta
             Institute of Technology) Information Technology program graduated
             student. I have applied to that program hoping to get an interesting
-            job with posibility to self-development. Moreover, this area implies
-            creating new things and make almost any idea to come to reality.
+            job with the possibility of self-development. Moreover, this area
+            implies creating new things and make almost any idea to come to
+            reality.
           </p>
+
           <p>
-            My first introduction to a computer had a place in 1996, but at that
-            time, I was just an explorer with access just for basic programs
-            like Paint, FAR manager, Microsoft Office and simple games. After
-            some period of time, when I was discovering the possibilities of the
-            Internet I have gained experience in managing a simple Joomla based
-            Internet-shop which I owned.
-          </p>
-          <p>
-            During my studying at SAIT I faced a lot of challenges which I had
-            to resolve. However, in my nature is to complete all the tasks as
-            good as it's possible.{" "}
+            During my studying at SAIT I faced a lot of challenges that I had to
+            resolve. However, my nature is to complete all the tasks as well as
+            it's possible.
           </p>
           <Container>
             <Row>
@@ -68,9 +62,10 @@ class AboutMe extends Component {
 
           <div>
             As for personal qualities, I am a good team player, working hard to
-            get the task be complited and love participating in community life,
-            so since I came to Canada I volunteer in Calgary Public Library as
-            assistant in Early Literacy and Crack the Code programs.
+            get the task to be completed and love participating in community
+            life, so since I came to Canada I volunteer in Calgary Public
+            Library as an assistant in Early Literacy and Crack the Code
+            programs.
           </div>
         </div>
       </div>
