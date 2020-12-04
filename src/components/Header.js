@@ -13,9 +13,9 @@ const Button = styled.button`
 export default class Header extends Component {
   render() {
     return (
-      <div>
+      <div >
         <div>
-          <header className="header ">
+          <header className="header container-fluid">
             <div className="frames">
               <div> VIKTORIIA DAVYDOVA </div>
               <div>Front End Web Developer</div>
@@ -27,7 +27,7 @@ export default class Header extends Component {
             <Button className="bannertext ">
               About me
               <img
-                id="hide"
+              class="hide"
                 src={require("../images/myQuestion.png")}
                 alt="question_mark"
               />
@@ -38,7 +38,7 @@ export default class Header extends Component {
             <Button className="bannertext">
               Projects
               <img
-                id="hide"
+              class="hide"
                 src={require("../images/myBulb.png")}
                 alt="lightbulb"
               />
@@ -49,7 +49,7 @@ export default class Header extends Component {
             <Button className="bannertext">
               Resume
               <img
-                id="hide"
+              class="hide"
                 src={require("../images/myChest.png")}
                 alt="treasure_chest"
               />
@@ -60,7 +60,7 @@ export default class Header extends Component {
             <Button className="bannertext">
               Contacts
               <img
-                id="hide"
+              class="hide"
                 src={require("../images/myGo.png")}
                 alt="go_sign"
               />

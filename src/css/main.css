@@ -11,7 +11,7 @@ body {
   background-color: #da292f;
   font-family: Monopoly Sans Font;
   src: url("../fonts/MONOPOLY_INLINE.ttf");
-  font-size: xx-large;
+  font-size: 2rem;
   height: 140px;
   padding: 20px;
   padding-bottom: 5px;
@@ -52,18 +52,18 @@ body {
     height: 50px;
   }
 
-  img#hide {
+  img.hide {
     display: none;
   }
 
-  header {
+  .header {
     height: 70px;
-    font-size: small;
+    font-size: 1rem;
     padding: 0;
   }
   .frames {
-    border: none;
-    padding: 0;
+    padding: 5px;
+    margin: 5px;
   }
 }
 
@@ -85,6 +85,7 @@ body {
   margin-top: 200px;
   margin-left: auto;
   margin-right: auto;
+  color:    #424949;
 }
 
 img {
@@ -94,11 +95,18 @@ img {
   padding-right: 10px;
 }
 
+.aboutMeImg {
+  width: 200px;
+  float: left;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
 .footer {
   position: relative;
   bottom: 0;
   right: 0;
-  color: #282e2c;
+  color: #797d7f;
   padding: 10px;
   height: 20px;
   font-family: "Tahoma";
