@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
-import VDResume from "../DavydovaViktoriia_resume.pdf";
 
 const Button = styled.button`
   .active & {
