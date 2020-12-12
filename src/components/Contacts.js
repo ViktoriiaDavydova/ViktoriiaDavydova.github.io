@@ -22,15 +22,6 @@ class Contacts extends Component {
         <div>
           <img
             className="float-left"
-            src={require("../images/phone.png")}
-            alt="phone_icon"
-          />
-          1(514)746-54-28{" "}
-        </div>
-        <br /> <br />
-        <div>
-          <img
-            className="float-left"
             src={require("../images/linkedin.png")}
             alt="lindedin_icon"
           />
