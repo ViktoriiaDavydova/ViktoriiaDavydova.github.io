@@ -66,6 +66,8 @@ body {
     padding: 5px;
     margin: 5px;
   }
+
+
 }
 
 .bannertext {
@@ -120,6 +122,7 @@ img {
   text-align: center;
   border-color: black;
   border-width: 2px;
+  margin: 2rem;
 }
 
 .card-header {

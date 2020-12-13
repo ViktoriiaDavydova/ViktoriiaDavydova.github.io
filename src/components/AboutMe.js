@@ -7,18 +7,24 @@ class AboutMe extends Component {
         <div className="tabcontent">
           <h3>About Me</h3>
           <br />
-          <img class="aboutMeImg"
+          <img
+            className="aboutMeImg"
             src={require("../images/aboutMeImg.jpg")}
             alt="Some nature"
           />
-          <p>My name is Viktoriia and I am looking for a Front End Web Developer role.</p>
+          <p>
+            My name is Viktoriia and I am looking for a Front End Web Developer
+            role.
+          </p>
 
-          <p>I love to create new things and bring my ideas to life, being inspired by the people and the world around me.</p>
+          <p>
+            I love to create new things and bring my ideas to life, being
+            inspired by the people and the world around me.
+          </p>
 
           <p>I am constantly developing my skills and knowledge.</p>
 
           <p>I love challenges and finding non-standard ways to solve them.</p>
-
         </div>
       </div>
     );
