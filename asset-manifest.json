@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/vdavydova-portfolio/static/css/main.32f57af3.chunk.css",
-    "main.js": "/vdavydova-portfolio/static/js/main.c2ba741a.chunk.js",
-    "main.js.map": "/vdavydova-portfolio/static/js/main.c2ba741a.chunk.js.map",
+    "main.css": "/vdavydova-portfolio/static/css/main.1799edfa.chunk.css",
+    "main.js": "/vdavydova-portfolio/static/js/main.21667d89.chunk.js",
+    "main.js.map": "/vdavydova-portfolio/static/js/main.21667d89.chunk.js.map",
     "runtime-main.js": "/vdavydova-portfolio/static/js/runtime-main.86353677.js",
     "runtime-main.js.map": "/vdavydova-portfolio/static/js/runtime-main.86353677.js.map",
-    "static/js/2.ff5986dd.chunk.js": "/vdavydova-portfolio/static/js/2.ff5986dd.chunk.js",
-    "static/js/2.ff5986dd.chunk.js.map": "/vdavydova-portfolio/static/js/2.ff5986dd.chunk.js.map",
+    "static/js/2.84dea68e.chunk.js": "/vdavydova-portfolio/static/js/2.84dea68e.chunk.js",
+    "static/js/2.84dea68e.chunk.js.map": "/vdavydova-portfolio/static/js/2.84dea68e.chunk.js.map",
     "index.html": "/vdavydova-portfolio/index.html",
-    "precache-manifest.c832dbec38e47d0a10b2b16cb0fd2d25.js": "/vdavydova-portfolio/precache-manifest.c832dbec38e47d0a10b2b16cb0fd2d25.js",
+    "precache-manifest.51b71817292eb8b32d49692924c10a0f.js": "/vdavydova-portfolio/precache-manifest.51b71817292eb8b32d49692924c10a0f.js",
     "service-worker.js": "/vdavydova-portfolio/service-worker.js",
-    "static/css/main.32f57af3.chunk.css.map": "/vdavydova-portfolio/static/css/main.32f57af3.chunk.css.map",
-    "static/js/2.ff5986dd.chunk.js.LICENSE.txt": "/vdavydova-portfolio/static/js/2.ff5986dd.chunk.js.LICENSE.txt",
-    "static/media/DavydovaViktoriia_resume.pdf": "/vdavydova-portfolio/static/media/DavydovaViktoriia_resume.48beba83.pdf",
+    "static/css/main.1799edfa.chunk.css.map": "/vdavydova-portfolio/static/css/main.1799edfa.chunk.css.map",
+    "static/js/2.84dea68e.chunk.js.LICENSE.txt": "/vdavydova-portfolio/static/js/2.84dea68e.chunk.js.LICENSE.txt",
+    "static/media/DavydovaViktoriia_resume.pdf": "/vdavydova-portfolio/static/media/DavydovaViktoriia_resume.1c244dcd.pdf",
     "static/media/main.css": "/vdavydova-portfolio/static/media/MONOPOLY_INLINE.12bf084f.ttf",
     "static/media/aboutMeImg.jpg": "/vdavydova-portfolio/static/media/aboutMeImg.31b16dc2.jpg",
     "static/media/myBulb.png": "/vdavydova-portfolio/static/media/myBulb.d761197a.png",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.86353677.js",
-    "static/js/2.ff5986dd.chunk.js",
-    "static/css/main.32f57af3.chunk.css",
-    "static/js/main.c2ba741a.chunk.js"
+    "static/js/2.84dea68e.chunk.js",
+    "static/css/main.1799edfa.chunk.css",
+    "static/js/main.21667d89.chunk.js"
   ]
 }
