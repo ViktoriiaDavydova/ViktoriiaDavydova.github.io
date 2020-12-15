@@ -23,21 +23,25 @@ class Projects extends Component {
                 <CardHeader style={{ backgroundColor: "#b7d9f4" }}></CardHeader>
                 <CardBody>
                   <CardActionArea
-                    href="https://viktoriiadavydova.github.io/loginPrototypeV0.0/"
+                    href="https://arcane-mesa-04292.herokuapp.com/  "
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <CardTitle>DOG SERVICE SYSTEM</CardTitle>
-                    <CardText>Group school project made with React</CardText>
+                    <CardTitle>DAILY JOURNAL</CardTitle>
+                    <CardText>
+                      {" "}
+                      Small project made with EJS, MongoDB and Mongoose through
+                      The App Brewery course
+                    </CardText>
                   </CardActionArea>
                 </CardBody>
                 <CardFooter className="text-muted">
                   <CardLink
-                    href="https://github.com/ViktoriiaDavydova/loginPrototypeV0.0"
+                    // href=""
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    GitHub Link
+                    No repository link is provided
                   </CardLink>
                 </CardFooter>
               </Card>
