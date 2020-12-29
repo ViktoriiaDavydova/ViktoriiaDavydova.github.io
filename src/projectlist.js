@@ -17,7 +17,7 @@ const projectList = [
       backgroundColor: "#89358d",
     },
     projLink: "https://protected-island-47075.herokuapp.com/",
-    projTitle: "ToDo List",
+    projTitle: "TODO LIST",
     projDescription:
       "Small project made with EJS, MongoDB and Mongoose through The App Brewery course",
     // gitHubLink: "",
