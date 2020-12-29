@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/vdavydova-portfolio/static/css/main.1799edfa.chunk.css",
-    "main.js": "/vdavydova-portfolio/static/js/main.9692092c.chunk.js",
-    "main.js.map": "/vdavydova-portfolio/static/js/main.9692092c.chunk.js.map",
+    "main.css": "/vdavydova-portfolio/static/css/main.bde41fe2.chunk.css",
+    "main.js": "/vdavydova-portfolio/static/js/main.dfc41105.chunk.js",
+    "main.js.map": "/vdavydova-portfolio/static/js/main.dfc41105.chunk.js.map",
     "runtime-main.js": "/vdavydova-portfolio/static/js/runtime-main.86353677.js",
     "runtime-main.js.map": "/vdavydova-portfolio/static/js/runtime-main.86353677.js.map",
     "static/js/2.bd969439.chunk.js": "/vdavydova-portfolio/static/js/2.bd969439.chunk.js",
     "static/js/2.bd969439.chunk.js.map": "/vdavydova-portfolio/static/js/2.bd969439.chunk.js.map",
     "index.html": "/vdavydova-portfolio/index.html",
-    "precache-manifest.4cbf1ed9041b1d5a3bb882be4f8ab0bd.js": "/vdavydova-portfolio/precache-manifest.4cbf1ed9041b1d5a3bb882be4f8ab0bd.js",
+    "precache-manifest.539d67046606efe1ce132f96768fc832.js": "/vdavydova-portfolio/precache-manifest.539d67046606efe1ce132f96768fc832.js",
     "service-worker.js": "/vdavydova-portfolio/service-worker.js",
-    "static/css/main.1799edfa.chunk.css.map": "/vdavydova-portfolio/static/css/main.1799edfa.chunk.css.map",
+    "static/css/main.bde41fe2.chunk.css.map": "/vdavydova-portfolio/static/css/main.bde41fe2.chunk.css.map",
     "static/js/2.bd969439.chunk.js.LICENSE.txt": "/vdavydova-portfolio/static/js/2.bd969439.chunk.js.LICENSE.txt",
-    "static/media/DavydovaViktoriia_resume.pdf": "/vdavydova-portfolio/static/media/DavydovaViktoriia_resume.1c244dcd.pdf",
+    "static/media/DavydovaViktoriia_resume.pdf": "/vdavydova-portfolio/static/media/DavydovaViktoriia_resume.04be060b.pdf",
     "static/media/main.css": "/vdavydova-portfolio/static/media/MONOPOLY_INLINE.12bf084f.ttf",
     "static/media/aboutMeImg.jpg": "/vdavydova-portfolio/static/media/aboutMeImg.31b16dc2.jpg",
     "static/media/myBulb.png": "/vdavydova-portfolio/static/media/myBulb.d761197a.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.86353677.js",
     "static/js/2.bd969439.chunk.js",
-    "static/css/main.1799edfa.chunk.css",
-    "static/js/main.9692092c.chunk.js"
+    "static/css/main.bde41fe2.chunk.css",
+    "static/js/main.dfc41105.chunk.js"
   ]
 }
