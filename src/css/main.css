@@ -1,10 +1,47 @@
 body {
-  background-color: rgb(242, 242, 242);
+  background-color: white;
 }
 
 @font-face {
   font-family: Monopoly Sans Font;
   src: url("../fonts/MONOPOLY_INLINE.ttf");
+}
+
+.header {
+  background-color: #da292f;
+  font-family: Monopoly Sans Font;
+  src: url("../fonts/MONOPOLY_INLINE.ttf");
+  font-size: 2rem;
+  height: 140px;
+  padding: 20px;
+  padding-bottom: 5px;
+  text-align: center;
+  position: relative;
+  color: #ffffff;
+}
+
+.frames {
+  border: 4px solid #ffffff;
+  border-radius: 25px;
+  display: inline-block;
+  padding: inherit;
+  padding-top: 0;
+}
+
+.tab button {
+  font-family: Monopoly Sans Font;
+  src: url("../fonts/MONOPOLY_INLINE.ttf");
+  width: 25%;
+  height: 150px;
+  border: 2px solid #282e2c;
+  background-color: #cae8e0;
+  float: left;
+  text-align: left;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  padding-left: 15px;
+  position: relative;
 }
 
 @media only screen and (max-width: 600px) {
@@ -29,6 +66,36 @@ body {
     padding: 5px;
     margin: 5px;
   }
+
+
+}
+
+.bannertext {
+  font-size: 60px;
+  line-height: 40px;
+  position: absolute;
+}
+
+.tab button:hover {
+  background-color: #365361;
+  color: white;
+}
+
+.tabcontent {
+  display: "none";
+  font-family: "Tahoma";
+  width: 50%;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #424949;
+}
+
+img {
+  max-width: auto;
+  height: auto;
+  float: right;
+  padding-right: 10px;
 }
 
 .aboutMeImg {
@@ -39,10 +106,16 @@ body {
   margin-bottom: 10px;
 }
 
-.bannertext {
-  font-size: 60px;
-  line-height: 40px;
-  position: absolute;
+.footer {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  color: #797d7f;
+  padding: 10px;
+  height: 20px;
+  font-family: "Tahoma";
+  margin-top: 20px;
+  text-align: right;
 }
 
 .card {
@@ -69,75 +142,4 @@ body {
 
 .card-title {
   font-weight: bold;
-}
-
-.footer {
-  position: relative;
-  bottom: 0;
-  right: 0;
-  color: #797d7f;
-  padding: 10px;
-  height: 20px;
-  font-family: "Tahoma";
-  margin-top: 20px;
-  text-align: right;
-}
-
-.frames {
-  border: 4px solid #ffffff;
-  border-radius: 25px;
-  display: inline-block;
-  padding: inherit;
-  padding-top: 0;
-}
-
-.header {
-  background-color: #da292f;
-  font-family: Monopoly Sans Font;
-  src: url("../fonts/MONOPOLY_INLINE.ttf");
-  font-size: 2rem;
-  height: 140px;
-  padding: 20px;
-  padding-bottom: 5px;
-  text-align: center;
-  position: relative;
-  color: #ffffff;
-}
-
-img {
-  max-width: auto;
-  height: auto;
-  float: right;
-  padding-right: 10px;
-}
-
-.tab button {
-  font-family: Monopoly Sans Font;
-  src: url("../fonts/MONOPOLY_INLINE.ttf");
-  width: 25%;
-  height: 150px;
-  border: 2px solid #282e2c;
-  background-color: #cae8e0;
-  float: left;
-  text-align: left;
-  outline: none;
-  cursor: pointer;
-  transition: 0.3s;
-  padding-left: 15px;
-  position: relative;
-}
-
-.tab button:hover {
-  background-color: #365361;
-  color: white;
-}
-
-.tabcontent {
-  display: "none";
-  font-family: "Tahoma";
-  width: 50%;
-  margin-top: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: #424949;
 }
