@@ -30,7 +30,7 @@ export default class Resume extends Component {
           )}
         </nav>
 
-        <div style={{ width: 600 }}>
+        <div>
           <Document file={VDResume} onLoadSuccess={this.onDocumentLoadSuccess}>
             <Page pageNumber={pageNumber} />
           </Document>

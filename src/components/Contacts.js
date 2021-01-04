@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import EmailIcon from "@material-ui/icons/Email";
 
 class Contacts extends Component {
   render() {
@@ -7,12 +9,7 @@ class Contacts extends Component {
         <h3>Contacts</h3>
         <br />
         <div>
-          <img
-            className="float-left"
-            src={require("../images/email.png")}
-            alt="email_icon"
-          />
-          Email me to{" "}
+          <EmailIcon style={{ fontSize: 60 }} /> Email me to{" "}
           <a href="mailto:viktoriiadavydov@gmail.com">
             VIKTORIIADAVYDOV@GMAIL.COM
           </a>
@@ -20,11 +17,7 @@ class Contacts extends Component {
         <br />
         <br />
         <div>
-          <img
-            className="float-left"
-            src={require("../images/linkedin.png")}
-            alt="lindedin_icon"
-          />
+          <LinkedInIcon style={{ fontSize: 60 }} />{" "}
           <a
             href="https://www.linkedin.com/in/viktroriia-davydova/"
             target="_blank"
