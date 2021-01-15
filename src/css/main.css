@@ -7,6 +7,10 @@ body {
   src: url("../fonts/MONOPOLY_INLINE.ttf");
 }
 
+h3 {
+  margin: 2rem;
+}
+
 .header {
   background-color: #da292f;
   font-family: Monopoly Sans Font;
@@ -47,6 +51,11 @@ body {
 @media only screen and (max-width: 600px) {
   body {
     width: 100%;
+  }
+
+  h3 {
+    padding-top: 2rem;
+    margin-top: 2rem;
   }
 
   .tab button {
