@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/vdavydova-portfolio/static/css/main.297b1080.chunk.css",
-    "main.js": "/vdavydova-portfolio/static/js/main.84de0ca2.chunk.js",
-    "main.js.map": "/vdavydova-portfolio/static/js/main.84de0ca2.chunk.js.map",
+    "main.js": "/vdavydova-portfolio/static/js/main.a67ae6ab.chunk.js",
+    "main.js.map": "/vdavydova-portfolio/static/js/main.a67ae6ab.chunk.js.map",
     "runtime-main.js": "/vdavydova-portfolio/static/js/runtime-main.86353677.js",
     "runtime-main.js.map": "/vdavydova-portfolio/static/js/runtime-main.86353677.js.map",
     "static/js/2.74a95201.chunk.js": "/vdavydova-portfolio/static/js/2.74a95201.chunk.js",
     "static/js/2.74a95201.chunk.js.map": "/vdavydova-portfolio/static/js/2.74a95201.chunk.js.map",
     "index.html": "/vdavydova-portfolio/index.html",
-    "precache-manifest.65ad9de4c34169abf730699512f627e0.js": "/vdavydova-portfolio/precache-manifest.65ad9de4c34169abf730699512f627e0.js",
+    "precache-manifest.b1177be024573758e9ee7d2ecfc8c8a9.js": "/vdavydova-portfolio/precache-manifest.b1177be024573758e9ee7d2ecfc8c8a9.js",
     "service-worker.js": "/vdavydova-portfolio/service-worker.js",
     "static/css/main.297b1080.chunk.css.map": "/vdavydova-portfolio/static/css/main.297b1080.chunk.css.map",
     "static/js/2.74a95201.chunk.js.LICENSE.txt": "/vdavydova-portfolio/static/js/2.74a95201.chunk.js.LICENSE.txt",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.86353677.js",
     "static/js/2.74a95201.chunk.js",
     "static/css/main.297b1080.chunk.css",
-    "static/js/main.84de0ca2.chunk.js"
+    "static/js/main.a67ae6ab.chunk.js"
   ]
 }
