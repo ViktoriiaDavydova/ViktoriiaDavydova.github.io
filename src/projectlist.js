@@ -46,7 +46,7 @@ const projectList = [
     footerText: "GitHub Link",
   },
   {
-    projId: ,
+    projId: 5,
     headerStyle: {
       backgroundColor: "#ff7124",
     },
