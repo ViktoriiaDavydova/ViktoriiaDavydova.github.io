@@ -45,6 +45,10 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+
   .tab button {
     display: block;
     width: 100%;

@@ -11,7 +11,7 @@ class Contacts extends Component {
         <div>
           <EmailIcon /> Email me to{" "}
           <a href="mailto:viktoriiadavydov@gmail.com">
-            VIKTORIIADAVYDOV@GMAIL.COM
+          viktoriiadavydov@gmail.com
           </a>
         </div>
         <br />
