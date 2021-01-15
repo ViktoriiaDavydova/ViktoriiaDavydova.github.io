@@ -37,6 +37,17 @@ const projectList = [
   {
     projId: 4,
     headerStyle: {
+      backgroundColor: "#0066a4",
+    },
+    projLink: "https://viktoriiadavydova.github.io/todo-ornot-todo/",
+    projTitle: "TO DO OR NOT TO DO",
+    projDescription: "Small personal project made with React",
+    gitHubLink: "https://github.com/ViktoriiaDavydova/todo-ornot-todo",
+    footerText: "GitHub Link",
+  },
+  {
+    projId: ,
+    headerStyle: {
       backgroundColor: "#ff7124",
     },
     projLink: "https://viktoriiadavydova.github.io/City-Delicatessen/",
@@ -46,7 +57,7 @@ const projectList = [
     footerText: "GitHub Link",
   },
   {
-    projId: 5,
+    projId: 6,
     headerStyle: {
       backgroundColor: "#fff005",
     },
@@ -56,17 +67,7 @@ const projectList = [
     gitHubLink: "https://github.com/ViktoriiaDavydova/Car-Rental",
     footerText: "GitHub Link",
   },
-  {
-    projId: 6,
-    headerStyle: {
-      backgroundColor: "#0066a4",
-    },
-    projLink: "",
-    projTitle: "FLIGHT MENU",
-    projDescription: "Small school project made with Java",
-    gitHubLink: "https://github.com/ViktoriiaDavydova/Flight-Menu",
-    footerText: "GitHub Link",
-  },
+
 ];
 
 export default projectList;
