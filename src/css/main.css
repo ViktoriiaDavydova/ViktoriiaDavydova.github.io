@@ -17,8 +17,7 @@ h3 {
   src: url("../fonts/MONOPOLY_INLINE.ttf");
   font-size: 2rem;
   height: 140px;
-  padding: 20px;
-  padding-bottom: 5px;
+  padding: 1rem;
   text-align: center;
   position: relative;
   color: #ffffff;
@@ -53,9 +52,14 @@ h3 {
     width: 100%;
   }
 
+  .aboutMeImg {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+  }
+
   h3 {
     padding-top: 2rem;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
   }
 
   .tab button {
@@ -78,6 +82,10 @@ h3 {
   .frames {
     padding: 5px;
     margin: 5px;
+  }
+
+  .tabcontent {
+    width: 100%;
   }
 }
 
@@ -115,6 +123,7 @@ img {
   border-radius: 100%;
   margin-right: 10px;
   margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .footer {

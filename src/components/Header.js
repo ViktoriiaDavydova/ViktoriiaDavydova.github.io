@@ -17,7 +17,7 @@ export default class Header extends Component {
           <header className="header container-fluid">
             <div className="frames">
               <div> VIKTORIIA DAVYDOVA </div>
-              <div>Front End Web Developer</div>
+              <div>Front-End Web Developer</div>
             </div>
           </header>
         </div>
