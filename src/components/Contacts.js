@@ -9,7 +9,7 @@ class Contacts extends Component {
         <h3>Contacts</h3>
         <br />
         <div>
-          <EmailIcon style={{ fontSize: 60 }} /> Email me to{" "}
+          <EmailIcon /> Email me to{" "}
           <a href="mailto:viktoriiadavydov@gmail.com">
             VIKTORIIADAVYDOV@GMAIL.COM
           </a>
@@ -17,7 +17,7 @@ class Contacts extends Component {
         <br />
         <br />
         <div>
-          <LinkedInIcon style={{ fontSize: 60 }} />{" "}
+          <LinkedInIcon />{" "}
           <a
             href="https://www.linkedin.com/in/viktroriia-davydova/"
             target="_blank"
