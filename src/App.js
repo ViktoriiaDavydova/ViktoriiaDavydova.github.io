@@ -22,7 +22,9 @@ export default class App extends React.Component {
         </HashRouter>
 
         <footer>
-          <p className="footer">Designed by Viktoriia Davydova © {new Date().getFullYear()}</p>
+          <p className="footer">
+            Designed by Viktoriia Davydova © {new Date().getFullYear()}
+          </p>
         </footer>
       </div>
     );

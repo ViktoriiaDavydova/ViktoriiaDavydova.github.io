@@ -29,7 +29,9 @@ export default class Resume extends Component {
             <button onClick={this.goToNextPage}>Next</button>
           )}
         </nav>
-<br></br>
+        <p>
+          Page {pageNumber} of {numPages}
+        </p>
         <div>
           <Document file={VDResume} onLoadSuccess={this.onDocumentLoadSuccess}>
             <Page pageNumber={pageNumber} />
