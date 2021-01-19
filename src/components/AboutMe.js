@@ -25,6 +25,12 @@ class AboutMe extends Component {
           <p>I am constantly developing my skills and knowledge.</p>
 
           <p>I love challenges and finding non-standard ways to solve them.</p>
+
+          <p>
+            My technical skills include but are not limited to HTML, CSS,
+            JavaScript, React, Node.js, Relational DB, Oracle, MongoDB, MySQL,
+            Adobe XD, MS Office.{" "}
+          </p>
         </div>
       </div>
     );
