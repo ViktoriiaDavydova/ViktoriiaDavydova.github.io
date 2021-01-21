@@ -62,7 +62,7 @@ export default class Resume extends Component {
           <br />
           <h4>
             <a href={VDResume} rel="noopener noreferrer" target="_blank">
-              Click to open this resume in a new tab
+              Click to open resume in a new tab
             </a>
           </h4>
         </MediaQuery>
