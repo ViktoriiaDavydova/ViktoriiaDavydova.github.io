@@ -28,9 +28,21 @@ export default class Resume extends Component {
           <div>
             <nav>
               {pageNumber === 2 ? (
-                <button type="button" className="btn btn-secondary" onClick={this.goToPrevPage}>Prev</button>
+                <button
+                  type="button"
+                  className="btn btn-secondary"
+                  onClick={this.goToPrevPage}
+                >
+                  Prev
+                </button>
               ) : (
-                <button type="button" className="btn btn-secondary" onClick={this.goToNextPage}>Next</button>
+                <button
+                  type="button"
+                  className="btn btn-secondary"
+                  onClick={this.goToNextPage}
+                >
+                  Next
+                </button>
               )}
             </nav>
             <p>
@@ -51,9 +63,21 @@ export default class Resume extends Component {
 
             <nav>
               {pageNumber === 2 ? (
-                <button type="button" className="btn btn-secondary" onClick={this.goToPrevPage}>Prev</button>
+                <button
+                  type="button"
+                  className="btn btn-secondary"
+                  onClick={this.goToPrevPage}
+                >
+                  Prev
+                </button>
               ) : (
-                <button type="button" className="btn btn-secondary" onClick={this.goToNextPage}>Next</button>
+                <button
+                  type="button"
+                  className="btn btn-secondary"
+                  onClick={this.goToNextPage}
+                >
+                  Next
+                </button>
               )}
             </nav>
           </div>
@@ -61,9 +85,14 @@ export default class Resume extends Component {
         <MediaQuery minWidth={0}>
           <br />
           <h4>
-            <button type="button" className="btn btn-secondary" href={VDResume} rel="noopener noreferrer" target="_blank">
-              Click to open resume in new tab
-            </button>
+            <form method="get" action={VDResume}>
+              <button
+                type="submit"
+                className="btn btn-secondary"
+              >
+                Click to open resume in this tab
+              </button>
+            </form>
           </h4>
         </MediaQuery>
       </div>
