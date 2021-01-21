@@ -28,9 +28,9 @@ export default class Resume extends Component {
           <div>
             <nav>
               {pageNumber === 2 ? (
-                <button onClick={this.goToPrevPage}>Prev</button>
+                <button type="button" className="btn btn-secondary" onClick={this.goToPrevPage}>Prev</button>
               ) : (
-                <button onClick={this.goToNextPage}>Next</button>
+                <button type="button" className="btn btn-secondary" onClick={this.goToNextPage}>Next</button>
               )}
             </nav>
             <p>
@@ -51,9 +51,9 @@ export default class Resume extends Component {
 
             <nav>
               {pageNumber === 2 ? (
-                <button onClick={this.goToPrevPage}>Prev</button>
+                <button type="button" className="btn btn-secondary" onClick={this.goToPrevPage}>Prev</button>
               ) : (
-                <button onClick={this.goToNextPage}>Next</button>
+                <button type="button" className="btn btn-secondary" onClick={this.goToNextPage}>Next</button>
               )}
             </nav>
           </div>
@@ -61,9 +61,9 @@ export default class Resume extends Component {
         <MediaQuery minWidth={0}>
           <br />
           <h4>
-            <a href={VDResume} rel="noopener noreferrer" target="_blank">
-              Click to open resume in a new tab
-            </a>
+            <button type="button" className="btn btn-secondary" href={VDResume} rel="noopener noreferrer" target="_blank">
+              Click to open resume in new tab
+            </button>
           </h4>
         </MediaQuery>
       </div>
