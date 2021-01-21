@@ -85,12 +85,14 @@ export default class Resume extends Component {
         <MediaQuery minWidth={0}>
           <br />
           <h4>
-            <form method="get" action={VDResume}>
-              <button
-                type="submit"
-                className="btn btn-secondary"
-              >
-                Click to open resume in this tab
+            <form
+              method="get"
+              action={VDResume}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button type="submit" className="btn btn-secondary">
+                Click to open resume in new tab
               </button>
             </form>
           </h4>
