@@ -84,6 +84,10 @@ h3 {
     margin: 5px;
   }
 
+  .pdf_width {
+    width: 100%;
+  }
+
 }
 
 .bannertext {
