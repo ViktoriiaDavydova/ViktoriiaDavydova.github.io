@@ -21,9 +21,6 @@ export default class Resume extends Component {
 
     return (
       <div className="tabcontent">
-        <h3>Resume</h3>
-        <br />
-
         <MediaQuery minWidth={700}>
           <div>
             <nav>
@@ -97,6 +94,10 @@ export default class Resume extends Component {
             </form>
           </h4>
         </MediaQuery>
+        <footer>
+          Resume
+          <img src={require("../images/myChest.png")} alt="treasure_chest" />
+        </footer>
       </div>
     );
   }
