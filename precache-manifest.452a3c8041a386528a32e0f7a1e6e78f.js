@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0a97b5b75b4f7761d4a81c247e0cfac5",
+    "revision": "bc2b039d550013e82aec31fb6b5d7536",
     "url": "/vdavydova-portfolio/index.html"
   },
   {
-    "revision": "66f6a17f465c214d8a49",
-    "url": "/vdavydova-portfolio/static/css/main.383dc357.chunk.css"
+    "revision": "f2f77f0309e46b65065e",
+    "url": "/vdavydova-portfolio/static/css/2.f17819b6.chunk.css"
   },
   {
-    "revision": "f3db875b828d1ec313cb",
-    "url": "/vdavydova-portfolio/static/js/2.b6316660.chunk.js"
+    "revision": "c803ed6f369a7e45873c",
+    "url": "/vdavydova-portfolio/static/css/main.bae1d97e.chunk.css"
   },
   {
-    "revision": "ee98404b9a0c49693feaf2eedd471e90",
-    "url": "/vdavydova-portfolio/static/js/2.b6316660.chunk.js.LICENSE.txt"
+    "revision": "f2f77f0309e46b65065e",
+    "url": "/vdavydova-portfolio/static/js/2.8c243564.chunk.js"
   },
   {
-    "revision": "66f6a17f465c214d8a49",
-    "url": "/vdavydova-portfolio/static/js/main.f2caf5da.chunk.js"
+    "revision": "7ec281faf4ee93330ed7caf0b82bc425",
+    "url": "/vdavydova-portfolio/static/js/2.8c243564.chunk.js.LICENSE.txt"
+  },
+  {
+    "revision": "c803ed6f369a7e45873c",
+    "url": "/vdavydova-portfolio/static/js/main.df3594dc.chunk.js"
   },
   {
     "revision": "8bf2a2a051f461e2aea4",
@@ -44,7 +48,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vdavydova-portfolio/static/media/myChest.3c87651d.png"
   },
   {
-    "revision": "3c44fc7544b5fc35394249853cf7fb6e",
-    "url": "/vdavydova-portfolio/static/media/myGo.3c44fc75.png"
+    "revision": "2e76b8008092a49d3a8e9b82922fc6bf",
+    "url": "/vdavydova-portfolio/static/media/myGo.2e76b800.png"
   }
 ]);

@@ -1,28 +1,31 @@
 {
   "files": {
-    "main.css": "/vdavydova-portfolio/static/css/main.383dc357.chunk.css",
-    "main.js": "/vdavydova-portfolio/static/js/main.f2caf5da.chunk.js",
-    "main.js.map": "/vdavydova-portfolio/static/js/main.f2caf5da.chunk.js.map",
+    "main.css": "/vdavydova-portfolio/static/css/main.bae1d97e.chunk.css",
+    "main.js": "/vdavydova-portfolio/static/js/main.df3594dc.chunk.js",
+    "main.js.map": "/vdavydova-portfolio/static/js/main.df3594dc.chunk.js.map",
     "runtime-main.js": "/vdavydova-portfolio/static/js/runtime-main.86353677.js",
     "runtime-main.js.map": "/vdavydova-portfolio/static/js/runtime-main.86353677.js.map",
-    "static/js/2.b6316660.chunk.js": "/vdavydova-portfolio/static/js/2.b6316660.chunk.js",
-    "static/js/2.b6316660.chunk.js.map": "/vdavydova-portfolio/static/js/2.b6316660.chunk.js.map",
+    "static/css/2.f17819b6.chunk.css": "/vdavydova-portfolio/static/css/2.f17819b6.chunk.css",
+    "static/js/2.8c243564.chunk.js": "/vdavydova-portfolio/static/js/2.8c243564.chunk.js",
+    "static/js/2.8c243564.chunk.js.map": "/vdavydova-portfolio/static/js/2.8c243564.chunk.js.map",
     "index.html": "/vdavydova-portfolio/index.html",
-    "precache-manifest.791ee7b7e100daa3a0b615344bba9f5d.js": "/vdavydova-portfolio/precache-manifest.791ee7b7e100daa3a0b615344bba9f5d.js",
+    "precache-manifest.452a3c8041a386528a32e0f7a1e6e78f.js": "/vdavydova-portfolio/precache-manifest.452a3c8041a386528a32e0f7a1e6e78f.js",
     "service-worker.js": "/vdavydova-portfolio/service-worker.js",
-    "static/css/main.383dc357.chunk.css.map": "/vdavydova-portfolio/static/css/main.383dc357.chunk.css.map",
-    "static/js/2.b6316660.chunk.js.LICENSE.txt": "/vdavydova-portfolio/static/js/2.b6316660.chunk.js.LICENSE.txt",
+    "static/css/2.f17819b6.chunk.css.map": "/vdavydova-portfolio/static/css/2.f17819b6.chunk.css.map",
+    "static/css/main.bae1d97e.chunk.css.map": "/vdavydova-portfolio/static/css/main.bae1d97e.chunk.css.map",
+    "static/js/2.8c243564.chunk.js.LICENSE.txt": "/vdavydova-portfolio/static/js/2.8c243564.chunk.js.LICENSE.txt",
     "static/media/DavydovaViktoriia_resume.pdf": "/vdavydova-portfolio/static/media/DavydovaViktoriia_resume.bcf2963a.pdf",
-    "static/media/main.css": "/vdavydova-portfolio/static/media/MONOPOLY_INLINE.12bf084f.ttf",
+    "static/media/styles.css": "/vdavydova-portfolio/static/media/MONOPOLY_INLINE.12bf084f.ttf",
     "static/media/aboutMeImg.jpg": "/vdavydova-portfolio/static/media/aboutMeImg.31b16dc2.jpg",
     "static/media/myBulb.png": "/vdavydova-portfolio/static/media/myBulb.d761197a.png",
     "static/media/myChest.png": "/vdavydova-portfolio/static/media/myChest.3c87651d.png",
-    "static/media/myGo.png": "/vdavydova-portfolio/static/media/myGo.3c44fc75.png"
+    "static/media/myGo.png": "/vdavydova-portfolio/static/media/myGo.2e76b800.png"
   },
   "entrypoints": [
     "static/js/runtime-main.86353677.js",
-    "static/js/2.b6316660.chunk.js",
-    "static/css/main.383dc357.chunk.css",
-    "static/js/main.f2caf5da.chunk.js"
+    "static/css/2.f17819b6.chunk.css",
+    "static/js/2.8c243564.chunk.js",
+    "static/css/main.bae1d97e.chunk.css",
+    "static/js/main.df3594dc.chunk.js"
   ]
 }
