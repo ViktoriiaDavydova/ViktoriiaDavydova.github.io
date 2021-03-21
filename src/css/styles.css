@@ -14,12 +14,13 @@ body {
 }
 
 .aboutme {
-  width: 55%;
   margin-top: 200px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 50vh;
   color: #424949;
   font-size: 1.5rem;
+  /* width: 55%; */
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
 .aboutMeImg {
@@ -61,12 +62,13 @@ body {
 }
 
 .contacts {
-  width: 50%;
   margin-top: 200px;
-  margin-left: auto;
+  margin-left: 50vh;
   margin-right: auto;
   color: #424949;
   font-size: 1.2rem;
+  /* width: 50%;
+  margin-left: auto; */
 }
 
 footer {
@@ -127,7 +129,7 @@ h1 {
   overflow-x: hidden;
   display: flex;
   z-index: 101;
-    /* height: 100vh; */
+  /* height: 100vh; */
   /* overflow-y: auto; */
   /* position: relative; */
   /* flex-direction: column; */
@@ -169,11 +171,12 @@ h1 {
 }
 
 .projects {
-  width: 50%;
   margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
   color: #424949;
+  margin-left: 50vh;
+  width: 50%;
+  /* margin-left: auto; */
+  margin-right: auto;
 }
 
 .resume {
