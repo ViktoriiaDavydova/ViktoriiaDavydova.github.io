@@ -4,7 +4,7 @@ import AboutMe from "./components/AboutMe";
 import Contacts from "./components/Contacts";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
-import Sidebar from "./components/Sidebar";
+import Navbar from "./components/Navbar";
 import { HashRouter, Route, Switch } from "react-router-dom";
 
 export default class App extends React.Component {
@@ -12,7 +12,7 @@ export default class App extends React.Component {
     return (
       <div className="app">
         <HashRouter basename="/">
-          <Sidebar />
+          <Navbar />
           <Switch >
             <Route path="/" exact component={AboutMe}  />
             <Route path="/Projects" component={Projects} />

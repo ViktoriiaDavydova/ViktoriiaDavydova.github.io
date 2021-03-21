@@ -20,7 +20,7 @@ export default class Resume extends Component {
     const { pageNumber, numPages } = this.state;
 
     return (
-      <div className="tabcontent">
+      <div className="resume">
         <MediaQuery minWidth={700}>
           <div>
             <nav>
