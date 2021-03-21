@@ -118,20 +118,20 @@ h1 {
 .nav-menu {
   background-color: #da292f;
   width: 35vh;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   justify-content: center;
   position: fixed;
   top: 0;
   transition: 850ms;
 
-  /* height: 100% !important;
-  overflow-y: auto;
+  height: 100% !important;
+  /* overflow-y: auto; */
   overflow-x: hidden;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  z-index: 101; */
+  /* position: relative; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* z-index: 101; */
 
   /* left: -100%; */
 }
