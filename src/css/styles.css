@@ -124,15 +124,13 @@ h1 {
   position: fixed;
   top: 0;
   transition: 850ms;
-
   height: 100% !important;
-  /* overflow-y: auto; */
   overflow-x: hidden;
+  display: flex;
+  z-index: 101;
+  /* overflow-y: auto; */
   /* position: relative; */
-  /* display: flex; */
   /* flex-direction: column; */
-  /* z-index: 101; */
-
   /* left: -100%; */
 }
 
