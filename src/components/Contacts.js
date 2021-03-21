@@ -9,7 +9,7 @@ class Contacts extends Component {
         <div>
           <EmailIcon /> Email me to{" "}
           <a href="mailto:viktoriiadavydov@gmail.com">
-          viktoriiadavydov@gmail.com
+            viktoriiadavydov@gmail.com
           </a>
         </div>
         <br />
@@ -26,8 +26,7 @@ class Contacts extends Component {
         </div>
         <footer>
           Contacts
-          <img       src={require("../images/myGo.png")}
-                alt="go_sign" />
+          <img src={require("../images/myGo.png")} alt="go_sign" />
         </footer>
       </div>
     );
