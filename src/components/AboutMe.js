@@ -4,7 +4,7 @@ class AboutMe extends Component {
   render() {
     return (
       <div>
-        <div className="aboutme">
+        <div className="tabcontent aboutme">
           <h1>
             <b>HI, I AM VIKTORIIA,</b>
           </h1>
@@ -32,7 +32,7 @@ class AboutMe extends Component {
             MongoDB, MySQL, Adobe XD, MS Office, Git, Linux.
           </p>
         </div>
-        <footer>
+        <footer className="hide">
           About Me
           <img src={require("../images/myQuestion.png")} alt="question_mark" />
         </footer>

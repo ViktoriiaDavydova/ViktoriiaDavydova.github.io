@@ -6,7 +6,7 @@ import projectList from "../projectlist";
 class Projects extends Component {
   render() {
     return (
-      <div className="projects">
+      <div className="tabcontent projects">
         <div className="row ">
           <CardDeck>
             {projectList.map((projItem) => (
@@ -22,7 +22,7 @@ class Projects extends Component {
             ))}
           </CardDeck>
         </div>
-        <footer>
+        <footer className="hide">
           Projects
           <img src={require("../images/myBulb.png")} alt="lightbulb" />
         </footer>

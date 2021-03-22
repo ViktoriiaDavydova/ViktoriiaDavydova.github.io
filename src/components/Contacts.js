@@ -5,7 +5,7 @@ import EmailIcon from "@material-ui/icons/Email";
 class Contacts extends Component {
   render() {
     return (
-      <div className="contacts">
+      <div className="tabcontent contacts">
         <div>
           <EmailIcon /> Email me to{" "}
           <a href="mailto:viktoriiadavydov@gmail.com">
@@ -24,7 +24,7 @@ class Contacts extends Component {
             My LinkedIn page
           </a>
         </div>
-        <footer>
+        <footer className="hide">
           Contacts
           <img src={require("../images/myGo.png")} alt="go_sign" />
         </footer>

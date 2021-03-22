@@ -20,7 +20,7 @@ export default class Resume extends Component {
     const { pageNumber, numPages } = this.state;
 
     return (
-      <div className="resume">
+      <div className=" tabcontent resume">
         <MediaQuery minWidth={700}>
           <div>
             <nav>
@@ -94,7 +94,7 @@ export default class Resume extends Component {
             </form>
           </h4>
         </MediaQuery>
-        <footer>
+        <footer className="hide">
           Resume
           <img src={require("../images/myChest.png")} alt="treasure_chest" />
         </footer>
