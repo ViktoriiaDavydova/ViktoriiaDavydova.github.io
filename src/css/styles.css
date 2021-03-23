@@ -186,9 +186,9 @@ h1 {
   }
 
   .aboutMeImg {
-    padding-bottom: 2rem;
-    /* width: 200px;
-    height: 200px; */
+    padding-bottom: 1rem;
+    margin: auto 1rem auto 1 rem;
+    width: unset;
   }
 
   .app {
@@ -198,6 +198,8 @@ h1 {
   .frames {
     padding: 5px;
     margin: 5px;
+    width: 80%;
+    margin: auto;
   }
 
   .hide {
