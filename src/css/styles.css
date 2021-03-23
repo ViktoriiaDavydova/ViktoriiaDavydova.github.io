@@ -187,19 +187,18 @@ h1 {
 
   .aboutMeImg {
     padding-bottom: 1rem;
-    margin: auto 1rem auto 1 rem;
-    width: unset;
+    margin:  1rem auto 1 rem auto;
+    width: 50%;
   }
 
   .app {
-    position: initial;
+    position: unset;
   }
 
   .frames {
     padding: 5px;
     margin: 5px;
-    width: 80%;
-    margin: auto;
+    margin: 1rem 10% 1rem 10%;
   }
 
   .hide {
@@ -211,7 +210,7 @@ h1 {
     background-color: #921f22;
     display: flex;
     justify-content: flex-start;
-    height: 80px;
+    /* height: 80px; */
   }
 
   .nav-menu.active {
