@@ -22,6 +22,7 @@ body {
   border-radius: 100%;
   margin: 100px 25% 50px 25%;
   width: 20vh;
+  /* height: 20vh; */
 }
 
 .app {
@@ -186,6 +187,12 @@ h1 {
 
   .aboutMeImg {
     padding-bottom: 2rem;
+    /* width: 200px;
+    height: 200px; */
+  }
+
+  .app {
+    position: initial;
   }
 
   .frames {
@@ -197,7 +204,22 @@ h1 {
     display: none;
   }
 
-  .pdf_width {
+  .navbar {
+    align-items: center;
+    background-color: #921f22;
+    display: flex;
+    justify-content: flex-start;
+    height: 80px;
+  }
+
+  .nav-menu.active {
     width: 100%;
+  }
+
+  .tabcontent {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 90%;
   }
 }
