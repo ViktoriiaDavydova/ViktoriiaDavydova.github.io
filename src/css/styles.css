@@ -187,18 +187,18 @@ h1 {
 
   .aboutMeImg {
     padding-bottom: 1rem;
-    margin:  1rem auto 1 rem auto;
+    margin: 20px auto 20px auto;
     width: 50%;
   }
 
   .app {
-    position: unset;
+    /* position: relative; */
   }
 
   .frames {
-    padding: 5px;
-    margin: 5px;
-    margin: 1rem 10% 1rem 10%;
+     padding: 5px;
+    margin: 10px 10px 10px 10px;
+     width: 100%;
   }
 
   .hide {
@@ -213,11 +213,19 @@ h1 {
     /* height: 80px; */
   }
 
-  .nav-menu.active {
+  .nav-menu {
+    width: 100%;
+  }
+
+  .nav-text {
+  }
+
+  .navbar-toggle {
     width: 100%;
   }
 
   .tabcontent {
+    position: relative;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;

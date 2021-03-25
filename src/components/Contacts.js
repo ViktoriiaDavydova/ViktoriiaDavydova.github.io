@@ -26,7 +26,7 @@ class Contacts extends Component {
         </div>
         <footer className="hide">
           Contacts
-          <img src={require("../images/myGo.png")} alt="go_sign" />
+          {/* <img src={require("../images/myGo.png")} alt="go_sign" /> */}
         </footer>
       </div>
     );
