@@ -1,8 +1,17 @@
-body {
+html, body {
   background-color: rgb(250, 245, 245);
-  height: 100vh;
+  /* height: 100vh; */
   margin: 0;
+  padding: 0;
+
+  min-height: 100%;
 }
+
+#body {
+  padding:10px;
+  padding-bottom:80px;	
+}
+
 
 @font-face {
   font-family: Monopoly Sans Font;
@@ -10,12 +19,12 @@ body {
 }
 
 #root {
-  height: 100%;
+  /* height: 100%; */
 }
 
 .aboutme {
   font-size: 1.5rem;
-  margin-top: 200px;
+  /* margin-top: 200px; */
 }
 
 .aboutMeImg {
@@ -26,9 +35,9 @@ body {
 }
 
 .app {
-  display: flex;
+  /* display: flex;
   height: 100%;
-  position: relative;
+  position: relative; */
 }
 
 .card {
@@ -62,22 +71,34 @@ body {
   margin-top: 200px;
 }
 
-footer {
+#container {
+  /* min-height: 100%;
+  position: relative; */
+}
+
+header {
   font-family: Monopoly Sans Font;
   src: url("../fonts/MONOPOLY_INLINE.ttf");
   bottom: 20px;
-  color: #365361;
+  color: #3e616e;
   font-size: 50px;
-  margin-top: 20px;
-  padding: 10px;
-  position: absolute;
+  /* margin-top: 20px; */
+  padding: 20px;
+  /* position: absolute; */
   right: 30px;
   text-align: right;
   z-index: -1;
   /* width: 100%; */
+
+  /* position:absolute;
+  bottom:0;
+  width:100%;
+  height:60px;		
+  background:#6cf;
+  margin-top: 20px; */
 }
 
-footer img {
+header img {
   height: 60px;
   padding-left: 20px;
   z-index: -1;
@@ -178,6 +199,7 @@ h1 {
   color: #424949;
   margin-left: 50vh;
   margin-right: 10vh;
+  margin-bottom: 5vh;
 }
 
 @media only screen and (max-width: 600px) {
