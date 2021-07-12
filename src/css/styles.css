@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   background-color: rgb(250, 245, 245);
   /* height: 100vh; */
   margin: 0;
@@ -8,10 +9,9 @@ html, body {
 }
 
 #body {
-  padding:10px;
-  padding-bottom:80px;	
+  padding: 10px;
+  padding-bottom: 80px;
 }
-
 
 @font-face {
   font-family: Monopoly Sans Font;
@@ -45,21 +45,28 @@ html, body {
   border-width: 2px;
   margin: 2rem;
   text-align: center;
+  min-height: 25rem;
+  min-width: 17rem;
+  /* flex-grow: 1;
+  flex-shrink: 1; */
+
+}
+
+.card-body {
+  /* min-height: 17rem;
+  min-width: 12.5rem; */
+}
+
+
+.card-footer {
+  border-top-color: black;
+  border-top-width: 2px;
 }
 
 .card-header {
   border-color: black;
   border-width: 2px;
   height: 100px;
-}
-
-.card-body {
-  height: 275px;
-}
-
-.card-footer {
-  border-top-color: black;
-  border-top-width: 2px;
 }
 
 .card-title {
@@ -218,9 +225,9 @@ h1 {
   }
 
   .frames {
-     padding: 5px;
+    padding: 5px;
     margin: 10px 10px 10px 10px;
-     width: 100%;
+    width: 100%;
   }
 
   .hide {

@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import { CardDeck } from "reactstrap";
+import { CardDeck, CardColumns } from "reactstrap";
 import ProjCard from "./ProjCard";
 import projectList from "../projectlist";
 
 class Projects extends Component {
   render() {
     return (
-      <div >
+      <div>
         <header className="hide">
           Projects
           <img src={require("../images/myBulb.png")} alt="lightbulb" />
